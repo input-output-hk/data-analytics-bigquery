@@ -28,30 +28,21 @@ func main() {
 
 	epoch_no := flag.Int("epoch_no", 251, "Indicate the epoch number for which you want to query its last block.")
 	flag.Parse()
-	if *epoch_no < 0 {
-		log.Fatal("wrong epoch number specified.")
-	}
+	if *epoch_no < 0 { log.Fatal("wrong epoch number specified.") }
 
 	ctx := context.Background()
 
-	// Sets your Google Cloud Platform project ID.
+	// the GCP/BigQuery project id
 	projectID := "iog-data-analytics"
 
-	// Creates a client.
 	bqclient, err := bigquery.NewClient(ctx, projectID)
-	if err != nil {
-		log.Fatalf("bigquery.NewClient: %v", err)
-	}
+	if err != nil { log.Fatalf("bigquery.NewClient: %v", err) }
 	defer bqclient.Close()
 
 	rows, err := runQuery(ctx, bqclient, *epoch_no)
-	if err != nil {
-		log.Fatalf("run query: %v", err)
-	}
+	if err != nil { log.Fatalf("run query: %v", err) }
 
-	if err := printResults(rows); err != nil {
-		log.Fatalf("print results: %v",err)
-	}
+	if err := printResults(rows); err != nil { log.Fatalf("print results: %v",err) }
 }
 
 func runQuery(ctx context.Context, client *bigquery.Client, p_epoch_no int) (*bigquery.RowIterator, error) {
