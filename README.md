@@ -5,7 +5,7 @@
 
 Access the [project on BigQuery](https://console.cloud.google.com/bigquery?project=iog-data-analytics&supportedpurview=project&ws=!1m4!1m3!3m2!1siog-data-analytics!2scardano_mainnet)
 
-This repository keeps the scripts and schema defitions of this project and ensures good communication with the great Cardano community.
+This repository keeps the scripts and schema definitions of this project and ensures good communication with the great Cardano community.
 
 Send in your [PRs](https://github.com/input-output-hk/data-analytics-bigquery/pulls/) or open an [issue](https://github.com/input-output-hk/data-analytics-bigquery/issues).
 
