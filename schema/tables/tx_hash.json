@@ -1,0 +1,26 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The slot number.",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The Tx table index of the transaction",
+   "name": "txidx",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The hash identifier of the transaction.",
+   "name": "tx_hash",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ }
+]

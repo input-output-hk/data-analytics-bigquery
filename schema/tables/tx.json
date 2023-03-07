@@ -1,0 +1,92 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The hash identifier of the transaction.",
+   "name": "tx_hash",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The block time (UTCTime).",
+   "name": "block_time",
+   "type": "DATETIME",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The slot number.",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The Tx table index of the transaction.",
+   "name": "txidx",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The sum of the transaction outputs (in Lovelace).",
+   "name": "out_sum",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The fees paid for this transaction.",
+   "name": "fee",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "Deposit (or deposit refund) in this transaction. Deposits are positive, refunds negative.",
+   "name": "deposit",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The size of the transaction in bytes.",
+   "name": "size",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "invalid_before",
+   "type": "DECIMAL",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "Transaction in invalid before this slot number.",
+   "name": "invalid_after",
+   "type": "DECIMAL",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "valid_script",
+   "type": "BOOL",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "script_size",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "count_inputs",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "count_outputs",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ }
+]

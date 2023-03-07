@@ -1,0 +1,44 @@
+[
+ {
+   "description": "collateral in this tx",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "collateral in this tx",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "collateral in this tx",
+   "name": "txidx",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+    "description": "the output in the collateral",
+    "name": "epoch_no_out",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "the output in the collateral",
+    "name": "slot_no_out",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "the output in the collateral",
+    "name": "txidx_out",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The index within the transaction outputs.",
+    "name": "tx_out_index",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+ ]

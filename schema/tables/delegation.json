@@ -1,0 +1,20 @@
+[
+  {
+    "description": "The epoch number.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The hash identifier of the stake address.",
+    "name": "stake_addr_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "Information on the transaction to which the delegation is delegated to.",
+    "name": "delegations",
+    "type": "JSON",
+    "mode": "REQUIRED"
+  }
+]

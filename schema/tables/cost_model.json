@@ -1,0 +1,26 @@
+[
+ {
+   "description": "",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+    "description": "",
+    "name": "slot_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "costs",
+    "type": "JSON",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "cost_model_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+ ]

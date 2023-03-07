@@ -1,0 +1,50 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The human readable encoding of the output address.",
+   "name": "address",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+  "description": "Whether the address is locked by a script.",
+  "name": "address_has_script",
+  "type": "BOOLEAN",
+  "mode": "REQUIRED"
+},
+{
+  "description": "The payment credential part of the Shelley address.",
+  "name": "payment_cred",
+  "type": "STRING",
+  "mode": "NULLABLE"
+},
+{
+  "description": "The hash of the transaction output datum.",
+  "name": "data_hash",
+  "type": "STRING",
+  "mode": "NULLABLE"
+},
+{
+  "description": "The inline datum (hash) of the output, if it has one.",
+  "name": "inline_datum",
+  "type": "STRING",
+  "mode": "NULLABLE"
+},
+{
+  "description": "The reference script (hash) of the output, if it has one.",
+  "name": "reference_script",
+  "type": "STRING",
+  "mode": "NULLABLE"
+},
+{
+   "description": "The list of outputs as triples (slot_no, txidx, index), thus the identification of the transaction by the pair of (slot_no, txidx) and then the output at index in the transaction.",
+   "name": "outputs",
+   "type": "JSON",
+   "mode": "REQUIRED"
+ }
+]

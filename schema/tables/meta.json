@@ -1,0 +1,20 @@
+[
+  {
+    "description": "The start time of the network.",
+    "name": "start_time",
+    "type": "DATETIME",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The network name.",
+    "name": "network_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "version",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]
