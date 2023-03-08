@@ -1,0 +1,20 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The stake address.",
+   "name": "address",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "outputs",
+   "type": "JSON",
+   "mode": "REQUIRED"
+ }
+]

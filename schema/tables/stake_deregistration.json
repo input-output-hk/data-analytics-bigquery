@@ -1,0 +1,32 @@
+[
+  {
+    "description": "The epoch in which the deregistration took place.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The StakeAddress table index for the stake address.",
+    "name": "stake_addr_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The index of this stake deregistration within the certificates of this transaction.",
+    "name": "cert_index",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The slot number.",
+    "name": "slot_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The Tx table index of the transaction where this stake address was deregistered.",
+    "name": "txidx",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

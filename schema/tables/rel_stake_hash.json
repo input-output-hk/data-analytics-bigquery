@@ -1,0 +1,26 @@
+[
+ {
+   "description": "The epoch number when the stake address has been first encountered",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+  "description": "The slot number when the stake address has been first encountered",
+  "name": "slot_no",
+  "type": "INTEGER",
+  "mode": "REQUIRED"
+},
+{
+   "description": "The stake address in Bech32 form",
+   "name": "stake_address",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The hash of the stake address in hex form for joining with other tables, e.g. 'reward'",
+   "name": "stake_addr_hash",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "description": "The slot number.",
+    "name": "slot_no",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "The Tx table index of the transaction.",
+    "name": "txidx",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The index of the consumed transaction pointer.",
+    "name": "index",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "Consumed in this slot number.",
+    "name": "consumed_in_slot_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "Consumed in this identified transaction.",
+    "name": "consumed_in_txidx",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

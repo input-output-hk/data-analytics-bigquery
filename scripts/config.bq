@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# settings
+export GRACE_SLOTS=400
+export DELETE_SLOTS=600
+# cap number of slots in update
+export CAP_SLOTS=10000

@@ -1,0 +1,50 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The slot number.",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The Tx table index for the transaction where this script first became available.",
+   "name": "txidx",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The Hash of the Script.",
+   "name": "script_hash",
+   "type": "STRING",
+   "mode": "REQUIRED"
+},
+{
+  "description": "The type of the script. This is currenttly either 'timelock' or 'plutus'.",
+  "name": "type",
+  "type": "STRING",
+  "mode": "REQUIRED"
+},
+{
+  "description": "JSON representation of the timelock script, null for other script types",
+  "name": "json",
+  "type": "JSON",
+  "mode": "NULLABLE"
+},
+{
+  "description": "CBOR encoded plutus script data, null for other script types",
+  "name": "bytes",
+  "type": "BYTES",
+  "mode": "NULLABLE"
+},
+{
+  "description": "The size of the CBOR serialised script, if it is a Plutus script.",
+  "name": "serialised_size",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+}
+]

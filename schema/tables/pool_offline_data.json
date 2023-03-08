@@ -1,0 +1,44 @@
+[
+  {
+    "description": "The hash of the pool that owns this ticker.",
+    "name": "pool_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The epoch number of the transaction in which this metadata reference was provided.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The pool's ticker name (as many as 5 characters).",
+    "name": "ticker_name",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The payload as JSON.",
+    "name": "json",
+    "type": "JSON",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The URL for the location of the off-chain data.",
+    "name": "metadata_url",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The expected hash for the off-chain data.",
+    "name": "metadata_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The Tx table index of the transaction in which provided this metadata reference.",
+    "name": "metadata_registered_tx_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  }
+]

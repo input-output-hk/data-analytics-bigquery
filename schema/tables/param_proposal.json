@@ -1,0 +1,200 @@
+[
+ {
+   "description": "The epoch for which this parameter proposal in intended to become active.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+    "description": "The hash of the crypto key used to sign this proposal.",
+    "name": "key",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+   "description": "The 'a' parameter to calculate the minimum transaction fee.",
+   "name": "min_fee_a",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The 'b' parameter to calculate the minimum transaction fee.",
+   "name": "min_fee_b",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The maximum block size.",
+   "name": "max_block_size",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The maximum transaction size.",
+   "name": "max_tx_size",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The maximum block header size.",
+   "name": "max_bh_size",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The amount (in Lovelace) require for a deposit to register a StakeAddress.",
+   "name": "key_deposit",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The amount (in Lovelace) require for a deposit to register a stake pool.",
+   "name": "pool_deposit",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The maximum number of epochs in the future that a pool retirement is allowed to be scheduled for.",
+   "name": "max_epoch",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "optimal_pool_count",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "influence",
+   "type": "NUMERIC",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "monetary_expand_rate",
+   "type": "NUMERIC",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "treasury_growth_rate",
+   "type": "NUMERIC",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "decentralisation",
+   "type": "NUMERIC",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "entropy",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "protocol_major",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "protocol_minor",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "min_utxo_value",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "min_pool_cost",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "coins_per_utxo_size",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "cost_model",
+   "type": "JSON",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "price_mem",
+   "type": "NUMERIC",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "price_step",
+   "type": "NUMERIC",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "max_tx_ex_mem",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "max_tx_ex_steps",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "max_block_ex_mem",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "max_block_ex_steps",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "max_val_size",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "collateral_percent",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "max_collateral_inputs",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+    "description": "",
+    "name": "registered_tx_slot_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "registered_tx_index",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+ ]

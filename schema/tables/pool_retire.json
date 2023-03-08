@@ -1,0 +1,44 @@
+[
+  {
+    "description": "The hash identifier of the pool.",
+    "name": "pool_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The epoch where this pool retires.",
+    "name": "retiring_epoch",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The epoch number in which this pool retirement was announced.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The index of this pool retirement within the certificates of this transaction.",
+    "name": "cert_index",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The Tx table hash of the transaction where this pool retirement was announced.",
+    "name": "announced_tx_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The slot number in which this pool retirement was announced.",
+    "name": "slot_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The Tx table index of the transaction where this pool retirement was announced.",
+    "name": "announced_txidx",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

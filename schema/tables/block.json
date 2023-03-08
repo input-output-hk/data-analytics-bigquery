@@ -1,0 +1,56 @@
+[
+ {
+   "description": "",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "block_time",
+   "type": "DATETIME",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "block_size",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "tx_count",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "sum_tx_fee",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "script_count",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "sum_script_size",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+  "description": "",
+  "name": "pool_hash",
+  "type": "STRING",
+  "mode": "NULLABLE"
+}
+]

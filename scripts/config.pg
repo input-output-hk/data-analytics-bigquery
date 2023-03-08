@@ -1,0 +1,31 @@
+#!/bin/bash
+
+if [ $(uname -s) = "Darwin" ]; then
+    export PSQL="/opt/homebrew/opt/postgresql@12/bin/psql"
+    export SED="/opt/homebrew/bin/gsed"
+    export BQ="/opt/homebrew/bin/bq"
+else
+    export PSQL=$(which psql)
+    export SED=$(which sed)
+    export BQ=$(which bq)
+fi
+
+if [ ! -e $PSQL -o ! -x $PSQL ]; then
+    echo "\$PSQL not found!"; exit 1
+fi
+if [ ! -e $SED -o ! -x $SED ]; then
+    echo "\$SED not found!"; exit 1
+fi
+if [ ! -e $BQ -o ! -x $BQ ]; then
+    echo "\$BQ not found!"; exit 1
+fi
+
+export PGDATABASE="${PGDATABASE:=cardano_mainnet_13}"
+export PGHOST="${PGHOST:=localhost}"
+export PGPORT=${PGPORT:=5437}
+export PGUSER="${PGUSER:=db_sync_reader}"
+if [ -z "$PGPASSWORD" ]; then
+	echo "password needed in PGPASSWORD=\"\""
+	exit 1
+fi
+

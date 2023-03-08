@@ -1,0 +1,32 @@
+[
+  {
+    "description": "The hash identifier of the pool.",
+    "name": "pool_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The epoch number.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The hash identifier of the address.",
+    "name": "addr_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The slot number.",
+    "name": "slot_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The StakeAddress table index for the pool owner's stake address.",
+    "name": "txidx",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

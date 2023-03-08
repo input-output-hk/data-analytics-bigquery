@@ -1,0 +1,38 @@
+[
+ {
+   "description": "The spendable epoch number",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The StakeAddress table index for the stake address that earned the reward.",
+   "name": "stake_addr_hash",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The source of the rewards; pool member, pool leader, treasury or reserves payment and pool deposits refunds",
+   "name": "type",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The reward amount (in Lovelace).",
+   "name": "amount",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The epoch in which the reward was earned. For pool and leader rewards spendable in epoch N, this will be N - 2, for treasury and reserves N - 1 and for refund N.",
+   "name": "earned_epoch",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The PoolHash table index for the pool the stake address was delegated to when the reward is earned or for the pool that there is a deposit refund. Will be NULL for payments from the treasury or the reserves.",
+   "name": "pool_hash",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ }
+]

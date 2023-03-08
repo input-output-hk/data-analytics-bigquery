@@ -1,0 +1,14 @@
+--apilog=stdout
+--format=prettyjson
+--location=europe-west6
+--project_id=82823879527
+--dataset_id=iog-data-analytics:db_sync
+--headless=true
+--quiet=true
+--synchronous_mode=true
+
+[query]
+--use_legacy_sql=false
+--max_rows=100
+--maximum_bytes_billed=10000000
+

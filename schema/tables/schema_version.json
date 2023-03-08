@@ -1,0 +1,20 @@
+[
+  {
+    "description": "Set up PostgreSQL data types (using SQL 'DOMAIN' statements).",
+    "name": "stage_one",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "Persistent generated migrations.",
+    "name": "stage_two",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "Set up database views, indices etc.",
+    "name": "stage_three",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  }
+]

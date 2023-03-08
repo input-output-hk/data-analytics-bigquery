@@ -1,0 +1,32 @@
+[
+ {
+   "description": "",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "txidx",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "inputs",
+   "type": "JSON",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "",
+   "name": "outputs",
+   "type": "JSON",
+   "mode": "NULLABLE"
+ }
+]

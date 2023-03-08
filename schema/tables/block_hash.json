@@ -1,0 +1,20 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The slot number.",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "description": "The hash identifier of the block.",
+   "name": "block_hash",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ }
+]

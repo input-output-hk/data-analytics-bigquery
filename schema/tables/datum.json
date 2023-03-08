@@ -1,0 +1,38 @@
+[
+	{
+		"description": "",
+		"name": "epoch_no",
+		"type": "INTEGER",
+		"mode": "REQUIRED"
+	},
+	{
+		"description": "points to tx (slot_no, txidx)",
+		"name": "slot_no",
+		"type": "INTEGER",
+		"mode": "REQUIRED"
+	},
+	{
+		"description": "points to tx (slot_no, txidx)",
+		"name": "txidx",
+		"type": "INTEGER",
+		"mode": "REQUIRED"
+	},
+	{
+		"description": "",
+		"name": "datum_hash",
+		"type": "STRING",
+		"mode": "REQUIRED"
+	},
+	{
+		"description": "",
+		"name": "bytes",
+		"type": "BYTES",
+		"mode": "REQUIRED"
+	},
+	{
+		"description": "",
+		"name": "value",
+		"type": "JSON",
+		"mode": "REQUIRED"
+	}
+]

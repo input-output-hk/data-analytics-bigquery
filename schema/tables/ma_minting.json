@@ -1,0 +1,32 @@
+[
+ {
+   "description": "The CIP14 fingerprint for the MultiAsset.",
+   "name": "fingerprint",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The MultiAsset policy Id.",
+   "name": "policyid",
+   "type": "STRING",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "The MultiAsset name.",
+   "name": "name_bytes",
+   "type": "BYTES",
+   "mode": "REQUIRED"
+  },
+  {
+    "description": "The epoch number.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "minting",
+    "type": "JSON",
+    "mode": "REQUIRED"
+   }
+]

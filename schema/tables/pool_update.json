@@ -1,0 +1,80 @@
+[
+  {
+    "description": "The epoch number where this update becomes active.",
+    "name": "active_epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The hash identifier of the pool.",
+    "name": "pool_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The index of this pool update within the certificates of this transaction.",
+    "name": "cert_index",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The hash of the pool's VRF key.",
+    "name": "vrf_key_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The amount (in Lovelace) the pool owner pledges to the pool.",
+    "name": "pledge",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The StakeAddress table index of this pool's rewards address.",
+    "name": "reward_addr",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The margin (as a percentage) this pool charges.",
+    "name": "margin",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The fixed per epoch fee (in ADA) this pool charges.",
+    "name": "fixed_cost",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "registered_tx_hash",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "The epoch number of the transaction in which this pool update was provided.",
+    "name": "epoch_no",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "description": "",
+    "name": "metadata_url",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "",
+    "name": "metadata_hash",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "description": "",
+    "name": "metadata_registered_tx_hash",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
