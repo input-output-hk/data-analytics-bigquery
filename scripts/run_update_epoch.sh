@@ -16,7 +16,7 @@ echo $BQ_CONFIG > /usr/src/app/scripts/key.json
 gcloud auth activate-service-account $BQUSER --key-file /usr/src/app/scripts/key.json 
 ${BQ} ls
 
-declare -a Tables=("epoch_param" "param_proposal" "ma_minting" "pool_update" "pool_offline_data" "delegation" "reward" "rel_addr_txout" "rel_stake_txout" )
+declare -a Tables=("epoch_param" "ada_pots" "param_proposal" "ma_minting" "pool_update" "pool_offline_data" "delegation" "reward" "rel_addr_txout" "rel_stake_txout" )
  
 # use for loop to read all tables
 for (( i=0; i<${#Tables[@]}; i++ ));
