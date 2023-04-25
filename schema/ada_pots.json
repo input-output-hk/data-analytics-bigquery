@@ -1,0 +1,50 @@
+[
+ {
+   "description": "The epoch number.",
+   "name": "epoch_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "slot_no",
+   "type": "INTEGER",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "treasury",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "reserves",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "rewards",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "utxo",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "deposits",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ },
+ {
+   "description": "",
+   "name": "fees",
+   "type": "NUMERIC",
+   "mode": "REQUIRED"
+ }
+]

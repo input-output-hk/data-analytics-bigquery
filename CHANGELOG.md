@@ -1,8 +1,8 @@
 # Changelog
 
-## Unreleased
+## Add new table (2023-04-25)
 
-- nothing yet..
+* Added "ada_pots" table
 
 
 ## [1.0.0] - 2022-11-09

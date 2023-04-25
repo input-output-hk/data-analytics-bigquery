@@ -35,6 +35,7 @@ ${BQ} ls
 declare -a TablesPerEpoch=(
 		"delegation"
 		"epoch_param"
+		"ada_pots"
 		"ma_minting"
 		"param_proposal"
 		"pool_offline_data"
