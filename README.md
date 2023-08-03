@@ -1,3 +1,4 @@
+# NB. This project is no longer maintained. It has moved [here](https://github.com/Blockchain-Data-Analytics/Cardano_on_BigQuery/wiki)
 
 # Cardano on-chain data on BigQuery
 
